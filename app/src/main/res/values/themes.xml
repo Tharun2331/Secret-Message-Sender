@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Base application theme (Light) -->
+    <style name="Theme.MessageSender" parent="Theme.Material3.DayNight.NoActionBar">
+        <item name="colorPrimary">@color/black</item>
+        <item name="colorPrimaryVariant">@color/dark_gray</item>
+        <item name="colorOnPrimary">@color/white</item>
+        <item name="colorSecondary">@color/medium_gray</item>
+        <item name="colorSecondaryVariant">@color/dark_gray</item>
+        <item name="colorOnSecondary">@color/black</item>
+        <item name="colorOnBackground">@color/black</item>
+        <item name="colorSurface">@color/light_gray</item>
+        <item name="colorOnSurface">@color/black</item>
+        <item name="colorError">@color/dark_gray</item>
+        <item name="colorOnError">@color/white</item>
+        <item name="android:statusBarColor">@color/black</item>
+        <item name="android:windowLightStatusBar">false</item>
+    </style>
+
+    <!-- Dark application theme -->
+    <style name="Theme.MessageSender.Dark" parent="Theme.Material3.DayNight.NoActionBar">
+        <item name="colorPrimary">@color/white</item>
+        <item name="colorPrimaryVariant">@color/medium_gray</item>
+        <item name="colorOnPrimary">@color/black</item>
+        <item name="colorSecondary">@color/light_gray</item>
+        <item name="colorSecondaryVariant">@color/medium_gray</item>
+        <item name="colorOnSecondary">@color/black</item>
+        <item name="android:colorBackground">@color/off_black</item>
+        <item name="colorOnBackground">@color/white</item>
+        <item name="colorSurface">@color/dark_surface</item>
+        <item name="colorOnSurface">@color/white</item>
+        <item name="colorError">@color/medium_gray</item>
+        <item name="colorOnError">@color/black</item>
+        <item name="android:statusBarColor">@color/off_black</item>
+        <item name="android:windowLightStatusBar">false</item>
+    </style>
+</resources>
